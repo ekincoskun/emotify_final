@@ -1,0 +1,12 @@
+module audioplayers {
+  umbrella header "audioplayers-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+
+module audioplayers.Swift {
+  header "/Users/ekincoskun/Desktop/emotify/emotify/build/ios/Release-iphoneos/audioplayers/Swift Compatibility Header/audioplayers-Swift.h"
+  requires objc
+}

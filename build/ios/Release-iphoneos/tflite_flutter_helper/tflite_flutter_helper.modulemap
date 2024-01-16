@@ -1,0 +1,12 @@
+module tflite_flutter_helper {
+  umbrella header "tflite_flutter_helper-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+
+module tflite_flutter_helper.Swift {
+  header "/Users/ekincoskun/Desktop/emotify/emotify/build/ios/Release-iphoneos/tflite_flutter_helper/Swift Compatibility Header/tflite_flutter_helper-Swift.h"
+  requires objc
+}
